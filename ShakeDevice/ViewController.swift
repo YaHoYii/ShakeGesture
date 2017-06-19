@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 
 		let label = UILabel()
-		label.text = "我喜欢你，认真且怂，从一而终"
+		label.text = "Hello World!"
 		label.textColor = UIColor(red: 1, green: 102/255, blue: 102/255, alpha: 1.0)
 		label.textAlignment = .center
 		view.addSubview(label)
