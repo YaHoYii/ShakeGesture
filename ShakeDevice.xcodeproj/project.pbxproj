@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091C85FF1EF7B2ED006154C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091C85FE1EF7B2ED006154C7 /* AppDelegate.swift */; };
+		091C86011EF7B2ED006154C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091C86001EF7B2ED006154C7 /* ViewController.swift */; };
+		091C86041EF7B2ED006154C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091C86021EF7B2ED006154C7 /* Main.storyboard */; };
+		091C86061EF7B2ED006154C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091C86051EF7B2ED006154C7 /* Assets.xcassets */; };
+		091C86091EF7B2ED006154C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091C86071EF7B2ED006154C7 /* LaunchScreen.storyboard */; };
+		8F2F565CEE5A1D2519AF36EA /* Pods_ShakeDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B80925199B51AB5B5F41FD /* Pods_ShakeDevice.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091C85FB1EF7B2ED006154C7 /* ShakeDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091C85FE1EF7B2ED006154C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		091C86001EF7B2ED006154C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		091C86031EF7B2ED006154C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		091C86051EF7B2ED006154C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		091C86081EF7B2ED006154C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		091C860A1EF7B2ED006154C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D7961A8A1A85CCC0AE14B8C /* Pods-ShakeDevice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeDevice.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeDevice/Pods-ShakeDevice.release.xcconfig"; sourceTree = "<group>"; };
+		55B80925199B51AB5B5F41FD /* Pods_ShakeDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE092C89DC343E53E1A7F33 /* Pods-ShakeDevice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeDevice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeDevice/Pods-ShakeDevice.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091C85F81EF7B2ED006154C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2F565CEE5A1D2519AF36EA /* Pods_ShakeDevice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091C85F21EF7B2ED006154C7 = {
+			isa = PBXGroup;
+			children = (
+				091C85FD1EF7B2ED006154C7 /* ShakeDevice */,
+				091C85FC1EF7B2ED006154C7 /* Products */,
+				AC89323FCE5D22BF52C38201 /* Pods */,
+				6EAFDB8BF224977972BB7D8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		091C85FC1EF7B2ED006154C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091C85FB1EF7B2ED006154C7 /* ShakeDevice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091C85FD1EF7B2ED006154C7 /* ShakeDevice */ = {
+			isa = PBXGroup;
+			children = (
+				091C85FE1EF7B2ED006154C7 /* AppDelegate.swift */,
+				091C86001EF7B2ED006154C7 /* ViewController.swift */,
+				091C86021EF7B2ED006154C7 /* Main.storyboard */,
+				091C86051EF7B2ED006154C7 /* Assets.xcassets */,
+				091C86071EF7B2ED006154C7 /* LaunchScreen.storyboard */,
+				091C860A1EF7B2ED006154C7 /* Info.plist */,
+			);
+			path = ShakeDevice;
+			sourceTree = "<group>";
+		};
+		6EAFDB8BF224977972BB7D8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B80925199B51AB5B5F41FD /* Pods_ShakeDevice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC89323FCE5D22BF52C38201 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CE092C89DC343E53E1A7F33 /* Pods-ShakeDevice.debug.xcconfig */,
+				1D7961A8A1A85CCC0AE14B8C /* Pods-ShakeDevice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091C85FA1EF7B2ED006154C7 /* ShakeDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091C860D1EF7B2ED006154C7 /* Build configuration list for PBXNativeTarget "ShakeDevice" */;
+			buildPhases = (
+				BB1849DA7049EF2A173DA82F /* [CP] Check Pods Manifest.lock */,
+				091C85F71EF7B2ED006154C7 /* Sources */,
+				091C85F81EF7B2ED006154C7 /* Frameworks */,
+				091C85F91EF7B2ED006154C7 /* Resources */,
+				3010ECC2FE2A83E7417EE52E /* [CP] Embed Pods Frameworks */,
+				0AE321F725EAAD29F7E733F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeDevice;
+			productName = ShakeDevice;
+			productReference = 091C85FB1EF7B2ED006154C7 /* ShakeDevice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091C85F31EF7B2ED006154C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "太阳在线";
+				TargetAttributes = {
+					091C85FA1EF7B2ED006154C7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5L2VYS9EW8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 091C85F61EF7B2ED006154C7 /* Build configuration list for PBXProject "ShakeDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 091C85F21EF7B2ED006154C7;
+			productRefGroup = 091C85FC1EF7B2ED006154C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091C85FA1EF7B2ED006154C7 /* ShakeDevice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091C85F91EF7B2ED006154C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091C86091EF7B2ED006154C7 /* LaunchScreen.storyboard in Resources */,
+				091C86061EF7B2ED006154C7 /* Assets.xcassets in Resources */,
+				091C86041EF7B2ED006154C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AE321F725EAAD29F7E733F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShakeDevice/Pods-ShakeDevice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3010ECC2FE2A83E7417EE52E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShakeDevice/Pods-ShakeDevice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1849DA7049EF2A173DA82F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091C85F71EF7B2ED006154C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091C86011EF7B2ED006154C7 /* ViewController.swift in Sources */,
+				091C85FF1EF7B2ED006154C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		091C86021EF7B2ED006154C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091C86031EF7B2ED006154C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		091C86071EF7B2ED006154C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091C86081EF7B2ED006154C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091C860B1EF7B2ED006154C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		091C860C1EF7B2ED006154C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		091C860E1EF7B2ED006154C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE092C89DC343E53E1A7F33 /* Pods-ShakeDevice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5L2VYS9EW8;
+				INFOPLIST_FILE = ShakeDevice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.lpp.ShakeDevice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		091C860F1EF7B2ED006154C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7961A8A1A85CCC0AE14B8C /* Pods-ShakeDevice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5L2VYS9EW8;
+				INFOPLIST_FILE = ShakeDevice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.lpp.ShakeDevice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091C85F61EF7B2ED006154C7 /* Build configuration list for PBXProject "ShakeDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091C860B1EF7B2ED006154C7 /* Debug */,
+				091C860C1EF7B2ED006154C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091C860D1EF7B2ED006154C7 /* Build configuration list for PBXNativeTarget "ShakeDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091C860E1EF7B2ED006154C7 /* Debug */,
+				091C860F1EF7B2ED006154C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091C85F31EF7B2ED006154C7 /* Project object */;
+}
