@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 
 		let label = UILabel()
-		label.text = "Hello World!"
+		label.text = "我喜欢你，认真且怂，从一而终"
 		label.textColor = UIColor(red: 1, green: 102/255, blue: 102/255, alpha: 1.0)
 		label.textAlignment = .center
 		view.addSubview(label)
@@ -104,21 +104,31 @@ class ViewController: UIViewController {
 			}
 		
 		}
-		
 	}
 	
 	// 取消摇动
 	override func motionCancelled(_ motion: UIEventSubtype, with event: UIEvent?) {
-		
-		
+		// 摇一摇的时候会出现，两张图分开之后停住无法合在一起的状况，这里必须处理一下
+		endShake()
+		print("别啊啊")
 		
 	}
 	
 	// 摇动结束
 	override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+		
 		// 这里睡眠一秒，其实可以不加，只是为了视觉上舒服
 		sleep(1)
 		
+		endShake()
+	
+		// 发出通知，其实本示例中，通知部分可以去掉，因为不使用通知，类似于微信摇一摇功能也已经实现了
+		NotificationCenter.default.post(name: NSNotification.Name(rawValue: "shake"), object: self)
+
+	}
+	
+	func endShake() {
+
 		// 使用 SnapKit 实现摇一摇结束的动画，图片合上
 		UIView.animate(withDuration: 1.5) {
 			self.topView.snp.remakeConstraints { (make) in
@@ -132,9 +142,6 @@ class ViewController: UIViewController {
 			}
 			self.view.layoutSubviews()
 		}
-		// 发出通知，其实本示例中，通知部分可以去掉，因为不使用通知，类似于微信摇一摇功能也已经实现了
-		NotificationCenter.default.post(name: NSNotification.Name(rawValue: "shake"), object: self)
-
 	}
 	
 	override func viewDidDisappear(_ animated: Bool) {
